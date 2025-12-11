@@ -11,7 +11,7 @@ import (
 )
 
 func HtmlReturn(w http.ResponseWriter, req *http.Request) {
-	http.ServeFile(w, req, "../index.html")
+	http.ServeFile(w, req, "index.html")
 }
 
 func HtmlParse(w http.ResponseWriter, req *http.Request) {
